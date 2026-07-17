@@ -16,6 +16,7 @@
                     <li><a href="index.html">Welcome</a></li>
                     <li><a href="home.html" class="active">Shop Front</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="dashboard.html" class="active">Dashboard</a></li>
                 </ul>
             </nav>
         </div>
