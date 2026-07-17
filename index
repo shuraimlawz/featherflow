@@ -16,6 +16,7 @@
                     <li><a href="index.html" class="active">Welcome</a></li>
                     <li><a href="home.html">Shop Front</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="dashboard.html" class="active">Dashboard</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,8 +40,7 @@
             <div class="product-card" style="padding: 2rem;">
                 <h4 style="color: var(--primary-color); font-size: 1.5rem; margin-bottom: 1rem;">Administrative Portal</h4>
                 <p style="margin-bottom: 1.5rem; font-size: 0.95rem;">Track biological assets, flock development cycles, fresh egg logs, and live inventory sync configurations.</p>
-                <button class="btn" style="background-color: var(--primary-color);">Access Dashboard</button>
-            </div>
+                <a href="dashboard.html" class="btn" style="background-color: var(--primary-color); text-decoration: none;">Access Dashboard</a>            </div>
             <div class="product-card" style="padding: 2rem;">
                 <h4 style="color: var(--secondary-color); font-size: 1.5rem; margin-bottom: 1rem;">Client Retail Shop</h4>
                 <p style="margin-bottom: 1.5rem; font-size: 0.95rem;">Browse daily fresh egg crates, premium grade meat poultry selections, and schedule customized delivery channels.</p>
