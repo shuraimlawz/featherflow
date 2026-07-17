@@ -42,10 +42,11 @@ header {
     color: #ffffff;
     font-size: 1.8rem;
     font-weight: 700;
+    font-family: jokerman;
 }
 
-.logo span {
-    color: var(--secondary-color);
+.logo h1 span {
+    font-family:jokerman;
 }
 
 nav ul {
