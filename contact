@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - FeatherFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo"><h1>Feather<span>Flow</span></h1></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Welcome</a></li>
+                    <li><a href="home.html">Shop Front</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="form-box">
+            <h2 style="color: var(--primary-color); margin-bottom: 0.5rem; text-align: center;">Get in Touch</h2>
+            <p style="color: #718096; text-align: center; margin-bottom: 2rem;">Have questions regarding wholesale bulk pricing or scheduled delivery tracking configurations?</p>
+            
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="johndoe@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Inquiry Subject</label>
+                    <select id="subject" name="subject">
+                        <option value="general">General Support Information</option>
+                        <option value="wholesale">Bulk Custom Wholesale Orders</option>
+                        <option value="delivery">Logistics Operations & Deliveries</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message Payload</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Draft details here..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn" style="width: 100%; font-size: 1.05rem;">Transmit Inquiry Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 FeatherFlow Systems. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
