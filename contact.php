@@ -1,33 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - FeatherFlow</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <div class="nav-container">
-            <div class="logo"><h1>Feather<span>Flow</span></h1></div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Welcome</a></li>
-                    <li><a href="home.html">Shop Front</a></li>
-                    <li><a href="contact.html" class="active">Contact Us</a></li>
-                     <li><a href="dashboard.html" class="active">Dashboard</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<?php
+$page_title = "Contact Us - FeatherFlow";
+include 'header.php';
+?>
 
     <main class="container">
         <div class="form-box">
             <h2 style="color: var(--primary-color); margin-bottom: 0.5rem; text-align: center;">Get in Touch</h2>
             <p style="color: #718096; text-align: center; margin-bottom: 2rem;">Have questions regarding wholesale bulk pricing or scheduled delivery tracking configurations?</p>
             
-            <form action="#" method="POST">
+            <div id="contact-alert" class="alert-box" style="display: none;"></div>
+
+            <form id="contact-form" action="backend/send_inquiry.php" method="POST">
                 <div class="form-group">
                     <label for="name">Full Name</label>
                     <input type="text" id="name" name="name" placeholder="Enter your full name here" required>
@@ -57,10 +40,6 @@
         </div>
     </main>
 
-    <footer>
-        <p>&copy; 2026 FeatherFlow Systems. All Rights Reserved.</p>
-    </footer>
-
-<script src="app.js"></script>
-</body>
-</html>
+<?php
+include 'footer.php';
+?>
